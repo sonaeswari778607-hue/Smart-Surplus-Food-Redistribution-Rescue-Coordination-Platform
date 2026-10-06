@@ -1,0 +1,21 @@
+{
+  "name": "foodrescue-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FoodRescue - Smart Surplus Food Redistribution & Rescue Coordination Platform",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "install:all": "npm --prefix client install && npm --prefix server install"
+  },
+  "keywords": [
+    "mern",
+    "food-rescue",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "FoodRescue Team",
+  "license": "ISC"
+}
